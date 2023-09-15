@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        padding-top: 30px;
+    }
+
+    label,
+    input {
+        display: block;
+    }
+</style>
+
+<body>
+    <p>Input radius value and get the volume of a sphere.</p>
+    <form action="" method="post" id="MyForm">
+        <label for="radius">Radius</label><input type="text" name="radius" id="radius" required>
+        <label for="volume">Volume</label><input type="text" name="volume" id="volume">
+        <input type="submit" value="Calculate" id="submit" onclick="calculateVolume()">
+    </form>
+    <script src="./app.js"></script>
+</body>
+
+</html>
