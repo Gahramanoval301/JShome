@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doubleClicked</title>
+    <style>
+        body {
+            background-color: wheat;
+            display: flex;
+            justify-content: center;
+        }
+
+        div {
+            border: 2px solid brown;
+            padding: 10px 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+
+        }
+
+        button:hover {
+            background-color: #fff;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button>Double Click Me!</button>
+        <p></p>
+    </div>
+    <script>
+        const btn = document.querySelector('button');
+        const p = document.querySelector('p');
+        btn.ondblclick = (e) => {
+            p.textContent = 'you double clicked!'
+        }
+    </script>
+</body>
+
+</html>

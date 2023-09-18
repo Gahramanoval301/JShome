@@ -1,0 +1,39 @@
+body{
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+}
+.root{
+    border:2px solid white;
+    padding: 10px 20px;
+}
+.root .scroll-bar
+{
+    position: relative;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.525);
+    cursor: pointer;
+}
+.root .scroll-thumb{
+    position: absolute;
+    top: 4px;
+     left: 3px;
+    width: 2.6rem;
+    height: 2.6rem;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.root .scroll-bar.right{
+    background-color: green;
+}
+.root .scroll-bar{
+    background-color: gray;
+}
+.root .scroll-bar.right .scroll-thumb{
+    left: 35px;
+}
+
+
