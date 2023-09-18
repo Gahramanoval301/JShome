@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: palevioletred;
+}
+#element{
+    margin-top: 3rem;
+    border:3px solid rebeccapurple;
+    background-color: rgba(255, 255, 255, 0.41);
+    box-shadow:0 2px 5px red;
+    border-radius: 6px;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+}

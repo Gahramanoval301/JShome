@@ -1,0 +1,23 @@
+body{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+form{
+    margin-top: 3rem;
+    display: flex;
+    flex-flow: column wrap;
+  gap: 1rem;
+}
+form input{
+    padding: 10px 15px;
+    border: 3px solid navy;
+    border-radius: 5px;
+    font-size: 1.125rem;
+}
+form #submit{
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
