@@ -5,7 +5,7 @@ class People {
         this.age = age;
     }
 }
-const leman = new People('leman', 18)
+const leman = new People('leman', 18);
 console.log(leman.name, leman.age);
 //constructor adi cevrildi class adina
 ///mutleq constructor olmalidi! constructor keyword'u yaziriq!
