@@ -113,7 +113,7 @@ switch (a) {
         alert("Heshzad")
         break;
 }
-
+console.log('3'+3)
 
 
 
