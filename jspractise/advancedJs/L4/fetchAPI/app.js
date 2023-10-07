@@ -1,6 +1,6 @@
 const url = 'https://jsonplaceholder.typicode.com/users'
 fetch(url)
-    .then(response => response.json())
+    .then(response => response.json())//bunun elw ozude promise'di response(response obh)->json
     .then(data => {
         console.log(data);
         data.forEach(({ name, id }) => {

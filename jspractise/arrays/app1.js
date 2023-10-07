@@ -11,4 +11,4 @@ style[1] = 'Classics';   //! styles[Math.floor((styles.length - 1) / 2)] = "Clas
 style.shift();
 style.unshift('Rap', 'Reggae');
 console.log(style);
- //style.splice(1, 1, ' Classics');
+//style.splice(1, 1, ' Classics');

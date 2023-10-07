@@ -10,7 +10,6 @@
 const add = (ed1, ed2, cb) => {
     let sum = ed1 + ed2
     cb(sum);
-
 }
 add(12, 23, (cem) => {
     console.log(`salam qardas by callback ${cem}`)

@@ -2,7 +2,7 @@ const btn = document.querySelector('#btn')
 const age = document.querySelector('#age');
 let ageValue = age.value;
 btn.onclick = Read
-
+localStorage.Read
 
 function Read() {
     localStorage.setItem('number', age.value);

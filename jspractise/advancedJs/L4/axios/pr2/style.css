@@ -1,0 +1,9 @@
+.user-container{
+    width: 50vw;
+    margin: auto;
+    margin-block: 20px;
+}
+.user-card{
+    border: 2px solid;
+
+}
