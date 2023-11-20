@@ -51,4 +51,6 @@ function backwardFunc(e) {
     //         }
     // console.log(img.src)
 }
+currentIndex = (currentIndex + 1) % sources.length; // for forwards
 
+currentIndex = (currentIndex - 1 + sources.length) % sources.length;//1, 1-1+9 %9

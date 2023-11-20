@@ -4,6 +4,7 @@
 
 const a = document.getElementById('w3r');
 const attributes = a.attributes;
+console.log(a.attributes);
 
 function getAttributes() {
     for (let at of attributes)

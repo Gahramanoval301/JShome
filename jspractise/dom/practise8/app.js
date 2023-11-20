@@ -8,6 +8,4 @@ function getOptions() {
         alert(child.value);
     }
     alert(options.length);
-
-
 }
