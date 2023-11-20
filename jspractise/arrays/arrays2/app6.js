@@ -14,7 +14,6 @@
 //     alert(names); // John, Pete, Mary
 
 
-
 let leman = {
     name: 'Leman',
     age: 18

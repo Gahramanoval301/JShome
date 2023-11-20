@@ -40,7 +40,7 @@ function Calculator() {
         let number1 = +str[0];
         let number2 = +str[2];
         let operator = str[1];
-        let result = this.methods[operator](number1, number2)
+        let result = this.methods[operator](number1, number2) //menim propum funksiyadi - ve hemin funksiyaya argumentler elave edib cagirir 
         return result;
     }
 

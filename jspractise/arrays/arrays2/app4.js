@@ -20,3 +20,7 @@ function copySorted(array) {
 let sorted = copySorted(arr);
 console.log(sorted) // CSS, HTML, JavaScript
 console.log(arr)  // HTML, JavaScript, CSS (no changes)
+
+// Rule:
+// 1. If you don't want your copied array is not the same reference with your original array
+// then use the rest operator like copiedArray = [...array]

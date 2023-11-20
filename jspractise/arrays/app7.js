@@ -1,5 +1,5 @@
 function myFunction(arr) {
-    let result = arr.every((element, index) => element === element[index])
+    let result = arr.every((element, index) => element === arr[index])
     return result
 }
 console.log(myFunction([2, 3, 34, 34, 3, 3]));

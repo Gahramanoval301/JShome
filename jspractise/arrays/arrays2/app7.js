@@ -36,4 +36,5 @@ const userInfo = users.map((user) => {
         id: user.id
     }
 })
+// fullName: `${user.name} ${user.surname}`
 console.log(userInfo)
